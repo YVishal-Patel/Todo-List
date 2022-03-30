@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card-component h3{
+ font-weight: 700;
+ color: #000;
+ font-size: 16px;
+ margin-top: 0.4rem;
+}
+.card-component p{
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: -0.4rem;
+   }
+
+.card-component h5{
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: -0.4rem;
+   }   
