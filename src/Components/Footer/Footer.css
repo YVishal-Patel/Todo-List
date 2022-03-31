@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+.footer{
+    width: 100%;
+    background-color: #000;
+    margin-top: -1rem;
+}
+.footer-items{
+    margin: 2.4rem 1.2rem;
+    color: #fff;
+}
+.web-icons-text{
+    background-color: #000;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  margin-top: -0.7rem;
+  width: 140px;
+  border: 1px solid #fff;
+}
+.footer .Copyright {
+    text-align: center;
+    color: darkgrey;
+}
+hr{
+    color: #fff;
+}
+.footer-header h3{
+font-weight: 600;
+margin: 1.4rem 0;
+}
+.footer-header input{
+    background-color: #000;
+    padding: 0.7rem 5rem ;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-bottom: 1.6rem;
+}
+.footer-header button{
+    padding: 0.71rem 2rem ;
+    color: #000;
+    font-weight: 600;
+    border: none;
+}
+.footer-items ul{
+    list-style: none;
+    margin-top: 0.5rem;
+}                               
+.footer-items li{
+    padding: 0.3rem;
+}
+.footer-items li a{
+text-decoration: none;
+color: #fff;
+font-size: 16px;
+font-weight: 600;
+margin-left: -5rem;
+}

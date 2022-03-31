@@ -6,6 +6,8 @@ import HomePage from './Components/HomePage/HomePage'
 import NewCollection from './Components/NewCollection/NewCollection'
 import About from './Components/AboutUs/About'
 import Product from './Components/Product/Product'
+import Official from './Components/FloraOfficial/Official'
+import Footer from './Components/Footer/Footer'
 function App() {
   return (
     <>
@@ -17,6 +19,8 @@ function App() {
     <About />
     <Product />
     <NewCollection Title="FLORA'S TOP PICK THIS WEEK"  />
+    <Official />
+    <Footer />
     </>
   )
 }
