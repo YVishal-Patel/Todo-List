@@ -8,8 +8,8 @@
     height: 60vh;
 }
 .heading{
-    margin-top: 5.9rem;
-    margin-left: 5rem;
+    margin-top: 8.9rem;
+    margin-left: 5.5rem;
 }
 
 .heading h3{
@@ -20,8 +20,8 @@ letter-spacing: 1px;
 
 .collection-data{
     width: 100%;
-    margin-top: 1.3rem;
-    margin-left: 5rem;
+    margin-top: 0.6rem;
+    margin-left: 5.5rem;
     display: flex;
     justify-content: space-between;
 }
@@ -29,28 +29,52 @@ letter-spacing: 1px;
 .collection-data{
     font-size: 15px;
 }
+
+.collection-data p{
+    color: rgb(56, 55, 55);
+    font-weight: 600;
+}
+.collection-data  .hr{
+    height: 2px;
+    margin-top: 0.3rem;
+    color: #000;
+    font-weight: 600;
+}
 .collection-data .arrow-icon{
     width: 30px;
     margin-left: -8.7rem;
     color: rgb(70, 67, 67);
 }
-
+/* 
 .collection-assets{
     width: 100%;
     margin-top: 1rem;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
 }
 .collection-assets .asset{
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 0 5rem;
-    /* padding: 1rem; */
+    padding: 1rem;
 }
 .collection-assets .asset img{
-    /* width: 250px; */
+    width: 250px;
     width: 97%;
     height: 450px;
+} */
+.collection-assets{
+    width: 100%;
+    /* margin-top: 0.5rem; */
+    margin: 0.5rem 1.7rem;
+}
+.collection-assets .asset{
+ width: 100%;
+ display: flex;
+ justify-content: space-evenly;
+}
+.collection-assets .asset img{
+    width: 400px;
 }

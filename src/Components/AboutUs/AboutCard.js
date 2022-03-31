@@ -1,10 +1,16 @@
 import React from 'react'
 
-function AboutCard() {
+function AboutCard({Icon, Title, Discription}) {
   return (
-      <>
-          About Card
-      </>
+    <>
+    <div className="about-cards">
+     <div className="about-card">
+       <p>{Icon} </p>
+       <h3>{Title}</h3>
+       <p>{Discription}</p>
+     </div>
+    </div>
+    </>
   )
 }
 
