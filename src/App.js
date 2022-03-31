@@ -5,6 +5,7 @@ import SearchBar from './Components/SearchBar/SearchBar'
 import HomePage from './Components/HomePage/HomePage'
 import NewCollection from './Components/NewCollection/NewCollection'
 import About from './Components/AboutUs/About'
+import Product from './Components/Product/Product'
 function App() {
   return (
     <>
@@ -12,8 +13,10 @@ function App() {
     <SearchBar />
     <Navbar />
     <HomePage />
-    <NewCollection />
+    <NewCollection Title="NEW 2022 COLLECTION" />
     <About />
+    <Product />
+    <NewCollection Title="FLORA'S TOP PICK THIS WEEK"  />
     </>
   )
 }

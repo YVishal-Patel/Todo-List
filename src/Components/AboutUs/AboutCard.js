@@ -1,4 +1,5 @@
 import React from 'react'
+import './AboutCard.css'
 
 function AboutCard({Icon, Title, Discription}) {
   return (
@@ -6,8 +7,8 @@ function AboutCard({Icon, Title, Discription}) {
     <div className="about-cards">
      <div className="about-card">
        <p>{Icon} </p>
-       <h3>{Title}</h3>
-       <p>{Discription}</p>
+       <h3 className='title' >{Title}</h3>
+       <p className='discription'>{Discription}</p>
      </div>
     </div>
     </>

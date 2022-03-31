@@ -12,5 +12,16 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     background-color: rgb(255, 221, 226);
 }
+.about-assets .about-asset{
+margin: 2.5rem 0;
+width: 470px;
+}
+
+  .about-assets .about-asset .about-icon{
+ width: 50px;
+ margin-left: 12rem;
+ margin-bottom: -0.7rem;
+} 
