@@ -6,23 +6,36 @@
 .navbar{
  width: 100%;
  height: 160px;
- margin-top: -7rem;
+ margin-top: -4.6rem;
 }
-.navbar-ul{
+.navbar-nav{
     width: 100%;
     list-style: none;
     display: flex;
     justify-content: center;
     border-top: 1px solid lightgrey;
 } 
-.navbar-ul li{
+.navbar-nav .nav-item {
      padding: 1.2rem;
 }
-.navbar-ul li a{
+.navbar-nav .nav-item .nav-link{
     text-decoration: none;
     color: #000;
     font-weight: bold;
 }
-.navbar-ul .navbar-color{
- color: red;
+ .navbar-nav .nav-item .navbar-color{
+ color: red !important;
+}
+.navbar .nav-btn{
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 991px){
+    .navbar .nav-btn{
+        margin-top: -12rem;
+        margin-left: 3rem;
+    }
 }

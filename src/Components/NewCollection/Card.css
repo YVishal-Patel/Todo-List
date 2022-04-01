@@ -6,17 +6,22 @@
 .card-component h3{
  font-weight: 700;
  color: #000;
- font-size: 16px;
- margin-top: 0.4rem;
+ font-size: 20px;
+ margin-top: 0.8rem;
 }
 .card-component p{
     font-weight: 700;
-    font-size: 14px;
-    margin-top: -0.4rem;
+    font-size: 18px;
+    /* margin-top: -0.4rem; */
+    color: darkgrey;
    }
 
 .card-component h5{
     font-weight: 700;
-    font-size: 16px;
-    margin-top: -0.4rem;
+    font-size: 18px;
+    margin-top: 0.4rem;
+    color: #000;
    }   
+   .btn{
+       /* margin-top: 1rem; */
+   }

@@ -10,7 +10,7 @@ function Card({imgUrl , Title , Discription , Price}) {
               <h3>{Title}</h3>
               <p>{Discription}</p>
               <h5>{Price}</h5>
-              <button className='btn-main'>Shop Now</button>
+              <button className='btn-main btn'>Shop Now</button>
             </div>
           </div>
       </>
