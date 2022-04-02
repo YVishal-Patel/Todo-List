@@ -66,28 +66,28 @@ function Product() {
             </p> */}
             <Carousel breakPoints={breakPoints}>
         
+          <Item className="Items">
+          <div className="collection-assets Product-asset">
+           <div className="collection-asset">
+           <ProductCart imgUrl="./assets/P5.jpg" Text="CLOTHS" /> </div> </div> </Item>
           <Item>
-          <div className="collection-assets">
+          <div className="collection-assets Product-asset">
            <div className="collection-asset">
-           <ProductCart imgUrl="./assets/P1.jpg" Text="CLOTHS" /> </div> </div> </Item>
-          <Item>
-          <div className="collection-assets">
-           <div className="collection-asset">
-           <ProductCart imgUrl="./assets/P1.jpg" Text="CLOTHS" /> </div> </div> </Item>
+           <ProductCart imgUrl="./assets/Img16.jpg" Text="CLOTHS" /> </div> </div> </Item>
                <Item>
-          <div className="collection-assets">
+          <div className="collection-assets Product-asset">
            <div className="collection-asset">
-           <ProductCart imgUrl="./assets/P1.jpg" Text="CLOTHS" /> </div> </div> </Item>
+           <ProductCart imgUrl="./assets/P3.jpg" Text="CLOTHS" /> </div> </div> </Item>
                <Item>
-          <div className="collection-assets">
+          <div className="collection-assets Product-asset">
            <div className="collection-asset">
-           <ProductCart imgUrl="./assets/P1.jpg" Text="CLOTHS" /> </div> </div> </Item>
+           <ProductCart imgUrl="./assets/P4.jpg" Text="CLOTHS" /> </div> </div> </Item>
                <Item>
-          <div className="collection-assets">
+          <div className="collection-assets Product-asset">
            <div className="collection-asset">
-           <ProductCart imgUrl="./assets/P1.jpg" Text="CLOTHS" /> </div> </div> </Item>
+           <ProductCart imgUrl="./assets/Img14.jpg" Text="CLOTHS" /> </div> </div> </Item>
            <Item>
-          <div className="collection-assets">
+          <div className="collection-assets Product-asset">
            <div className="collection-asset">
            <ProductCart imgUrl="./assets/P1.jpg" Text="CLOTHS" /> </div> </div> </Item>
 

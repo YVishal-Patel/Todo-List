@@ -7,19 +7,19 @@ function Footer() {
           <div className="container-fluid footer">
           
               <div className="row">
-                  <div className="col-3 footer-items">
+                  <div className="col-3  footer-items">
                   <div className=" web-icon">
                       <p className='web-icons fs-3'>FLORA </p>
                       <p className='web-icons-text'>THE FASHION BOUTIQUE</p>
                   </div>
                   <div className="footer-disc">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam corrupti sint, rerum voluptatibus quam ducimus blanditiis, nam, accusantium eligendi quasi facere minus maxime. Eligendi cupiditate repellendus dolore exercitationem nostrum. Placeat.</p>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam corrupti sint, rerum voluptatibus quam ducimus blanditiis, nam, accusantium eligendi quasi facere minus maxime. Eligendi cupiditate.</p>
                   </div>
                   <div className="footer-icon">
 
                   </div>
                   </div>
-                  <div className="col-5 footer-items ">
+                  <div className="col-sm-4  footer-items ">
                   <div className="footer-header">
                       <h3>We'll send to your inbox.</h3>
                       <input type="text" placeholder='your email address' />
@@ -30,7 +30,7 @@ function Footer() {
                   </div>
 
                   </div>
-                  <div className="col-2 footer-items">
+                  <div className="col-sm-2  footer-items">
                   <div className="footer-item">
                   <ul>
                       <li> <a href="#"> ORDER</a></li>
@@ -42,8 +42,8 @@ function Footer() {
                   </ul>
                   </div>
                   </div>
-                  <div className="col-1 footer-items">
-                  <div className="footer-item">
+                  <div className="col-sm-2  footer-items">
+                  <div className="footer-item last">
                   <ul>
                       <li> <a href="#"> ABOUT US</a></li>
                       <li> <a href="#"> OUR STORIES</a></li>

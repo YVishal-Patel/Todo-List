@@ -14,12 +14,12 @@ function App() {
     <TopBar />
     <SearchBar />
     <Navbar />
-    <HomePage />
+     <HomePage />
     <NewCollection Title="NEW 2022 COLLECTION" />
     <About />
     <Product />
-    <NewCollection Title="FLORA'S TOP PICK THIS WEEK"  />
-    <Official />
+    <NewCollection Title="FLORA'S TOP PICK THIS WEEK"  /> 
+    <Official /> 
     <Footer />
     </>
   )
