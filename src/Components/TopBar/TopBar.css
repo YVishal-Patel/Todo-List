@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200;300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid1{
+    max-width: 100%;
+    background-color: black;
+    height: 2.81rem;
+    line-height: 2.81rem;
+}
+.container-fluids{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.container-text{
+    margin-left: 4rem;
+}
+.container-number{
+    margin-right: 4rem;
+}
+
+@media only screen and (max-width: 1180px){ 
+    .container-text{
+        margin-left: 2.6rem;
+    }
+    .container-text p{
+        font-size: 13px;
+    }
+    .container-number{
+        margin-right: 2.6rem;
+    }
+    .container-number p{
+        font-size: 13px;
+    }
+}
+
+
+@media only screen and (max-width: 920px){ 
+    .container-text{
+        margin-left: 2.2rem;
+    }
+    .container-text p{
+        font-size: 11px;
+    }
+    .container-number{
+        margin-right: 2.2rem;
+    }
+    .container-number p{
+    font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 760px){ 
+    .container-text{
+        margin-left: 1.8rem;
+    }
+    .container-text p{
+        font-size: 10px;
+    }
+    .container-number{
+        margin-right: 1.8rem;
+    }
+    .container-number p{
+    font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 690px){ 
+    .container-text{
+        margin-left: 1.2rem;
+    }
+    .container-text p{
+        font-size: 8px;
+    }
+    .container-number{
+        margin-right: 1.2rem;
+    }
+    .container-number p{
+    font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 545px){ 
+    .container-fluids{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-text{
+        margin-left: 4.6rem;
+        margin-top: -0.6rem;
+    }
+    .container-number {
+        margin-top: -2.5rem;
+        margin-left: 5.6rem;
+        }
+        .container-text p , .container-number p{
+            font-size: 0.75rem;
+        }
+}
+@media only screen and (max-width: 495px){ 
+    .container-fluids{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-text{
+        margin-left: 3.6rem;
+        margin-top: -0.6rem;
+    }
+    .container-number {
+        margin-top: -2.5rem;
+        margin-left: 4.6rem;
+        }
+        .container-text p , .container-number p{
+            font-size: 0.65rem;
+        }
+}
+
+@media only screen and (max-width: 420px){ 
+    .container-fluids{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-text{
+        margin-left: 3.0rem;
+        margin-top: -0.6rem;
+    }
+    .container-number {
+        margin-top: -2.5rem;
+        margin-left: 4.0rem;
+        }
+        .container-text p , .container-number p{
+            font-size: 0.55rem;
+        }
+}

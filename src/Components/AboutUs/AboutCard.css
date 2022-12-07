@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about-cards{
+    width: 100%;
+}
+.about-cards .about-card{
+    width: 100%;
+}
+.about-cards .about-card .title{
+    font-weight: 700;
+    color: #000;
+    font-size: 24px;
+    word-spacing: 1px;
+    margin: 0.7rem ;
+    text-align: center;
+}
+.about-cards .about-card .discription{
+    color: #000;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}

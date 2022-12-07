@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container-fluid2 {
+  width: 100%;
+  height: 150px;
+}
+.container-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.row {
+  margin-top: 1.5rem;
+}
+.search-icon{
+width: 35px;
+height: 35px;
+}
+
+.row .search{
+  margin-left: 3rem;
+}
+
+.searchBar input {
+  border: none;
+  outline: none;
+  font-weight: 500;
+}
+
+.web-icons {
+  letter-spacing: 0.83rem;
+  font-weight: 550;
+}
+.web-icoms-text {
+  background-color: #000;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  margin-top: -1rem;
+  width: 140px;
+}
+.row .text{
+  font-size: 17px;
+  font-weight: 450;
+  color: #000;
+}
+
+/* -------------------- Media Querry  ------------------- */
+
+
+@media only screen and (max-width: 1440px){
+  .search-icon{
+    width: 31px;
+    height: 31px;
+    }
+  .row .text{
+    font-size: 13px;
+    font-weight: 450;
+  }
+}
+
+@media only screen and (max-width: 1245px){
+  .search-icon{
+    width: 27px;
+    height: 27px;
+    }
+  .row .text{
+    font-size: 12px;
+    font-weight: 450;
+  }
+}
+
+@media only screen and (max-width: 1135px){
+  .search-icon{
+    width: 23px;
+    height: 23px;
+    }
+  .row .text{
+    font-size: 10px;
+    font-weight: 450;
+  }
+}
+
+@media only screen and (max-width: 1050px){
+  .search-icon{
+    width: 28px;
+    height: 28px;
+    }
+  .row .text{
+    display: none;
+    font-size: 9px;
+    font-weight: 450;
+  }
+}
+@media only screen and (max-width: 991px){
+  .searchBar .search, input{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 776px){
+  .searchBar input{
+    display: none;
+  }
+  .web-icoms-text{
+    width: 133px;
+  }
+}
+
+@media only screen and (max-width: 710px){
+  .search-icon{
+    width: 23px;
+    height: 23px;
+    }
+    .row .search{
+      width: 32px !important;
+      height: 32px !important;
+    }
+    
+    .web-icons{
+      font-size: 18px;
+    }
+   
+}
+
+@media only screen and (max-width: 570px){
+  .search-icon{
+    width: 21px;
+    height: 21px;
+    }
+    .row .search{
+      width: 28px !important;
+      height: 28px !important;
+    }
+
+    .web-icon{
+      margin-left: -2rem;
+    }
+  
+}
+
+
+@media only screen and (max-width: 460px){
+  .search-icon{
+    width: 19px;
+    height: 19px;
+    }
+    .row .search{
+      width: 22px !important;
+      height: 22px !important;
+    }
+    .searchBar input{
+      display: none;
+    }  
+
+    .web-icon{
+      margin-left: -2.6rem;
+    }
+    .web-icoms-text{
+      width: 128px;
+    }
+}

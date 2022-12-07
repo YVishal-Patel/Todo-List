@@ -1,0 +1,41 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.navbar{
+ width: 100%;
+ height: 160px;
+ margin-top: -4.6rem;
+}
+.navbar-nav{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid lightgrey;
+} 
+.navbar-nav .nav-item {
+     padding: 1.2rem;
+}
+.navbar-nav .nav-item .nav-link{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+ .navbar-nav .nav-item .navbar-color{
+ color: red !important;
+}
+.navbar .nav-btn{
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 991px){
+    .navbar .nav-btn{
+        margin-top: -12rem;
+        margin-left: 3rem;
+    }
+}
