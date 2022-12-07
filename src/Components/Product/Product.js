@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "react-elastic-carousel";
+// import Carousel from "react-elastic-carousel";
 import Item from "./Item";
 import "./Product.css";
 import ProductCart from "./ProductCart";
@@ -64,7 +64,7 @@ function Product() {
                 />
               </svg>
             </p> */}
-            <Carousel breakPoints={breakPoints}>
+            {/* <Carousel breakPoints={breakPoints}>
         
           <Item className="Items">
           <div className="collection-assets Product-asset">
@@ -91,7 +91,7 @@ function Product() {
            <div className="collection-asset">
            <ProductCart imgUrl="./assets/P1.jpg" Text="CLOTHS" /> </div> </div> </Item>
 
-        </Carousel>
+        </Carousel> */}
             </div>
           {/* </div>
         </div> */}

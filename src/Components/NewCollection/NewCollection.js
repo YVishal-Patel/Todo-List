@@ -86,7 +86,7 @@
 
 
 import React from "react";
-import Carousel from "react-elastic-carousel";
+// import Carousel from "react-elastic-carousel";
  import Card from "./Card";
 import Item from "./Item";
 import './NewCollection.css'
@@ -143,13 +143,8 @@ function NewCollection({Title}) {
             </svg>{" "}
           </span> */}
         </div>
-        <Carousel breakPoints={breakPoints}>
-        
-          {/* <Item> <div className="container">
-           
-          </div> */}
-          {/* <div className="collection-assets">
-           <div className="asset"> */}
+        {/* <Carousel breakPoints={breakPoints}>
+
           <Item>
           <div className="collection-assets">
            <div className="asset">
@@ -199,7 +194,7 @@ function NewCollection({Title}) {
               Discription="Lorem ipsum dolor sit amet"
                Price="$250"/> </div> </div> </Item>
 
-        </Carousel>
+        </Carousel> */}
       </div>
       </div>
     </>
